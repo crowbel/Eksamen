@@ -1,11 +1,12 @@
-package org.example;
+package org.example.Gui;
 
 import java.io.IOException;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
+import org.example.App;
 
-public class SecondaryController {
+public class AdminController {
     @FXML
     private Button secondaryButton;
 

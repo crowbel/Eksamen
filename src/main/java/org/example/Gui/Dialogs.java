@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Gui;
 
 import javafx.scene.control.Alert;
 
