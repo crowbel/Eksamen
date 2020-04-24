@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3466efb-ca82-4400-849c-b869782236f0" name="Default Changelist" comment="Controllere flyttet for økt lesbarhet + Påbegynt filbehandling">
+    <list default="true" id="b3466efb-ca82-4400-849c-b869782236f0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/io/FileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/io/FileWriter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/AdminController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Dialogs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/PrimaryController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/SecondaryController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/admin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/admin.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/login.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/user.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/user.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Gui/FileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Gui/FileHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +17,7 @@
       <list>
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -98,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587461970247</updated>
-      <workItem from="1587649544721" duration="4674000" />
+      <workItem from="1587649544721" duration="15279000" />
     </task>
     <task id="LOCAL-00001" summary="Controllere flyttet for økt lesbarhet + Påbegynt filbehandling">
       <created>1587649965474</created>
@@ -107,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587649965474</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Controllere flyttet for økt lesbarhet + Påbegynt filbehandling">
+      <created>1587674891214</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587674891214</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,10 +142,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="1003" y="325" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.864@0.0.1536.864" timestamp="1587649658849" />
-    <state x="393" y="27" key="CommitChangelistDialog2" timestamp="1587674269953">
+    <state x="393" y="27" key="CommitChangelistDialog2" timestamp="1587736021177">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="393" y="27" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1587674269953" />
+    <state x="393" y="27" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1587736021177" />
     <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1587671207712">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -190,9 +191,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="776" y="297" key="chooseDestDirectoryDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587637230768" />
-    <state x="578" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587674864940">
+    <state x="578" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587736023890">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="578" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1587674864940" />
+    <state x="578" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1587736023890" />
   </component>
 </project>
